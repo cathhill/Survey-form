@@ -1,0 +1,121 @@
+body {
+    background: #6667A0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4;
+    min-height: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 50px 17.5px 0 17.5px;
+}
+
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    font-size: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #262744;
+        padding: 40px;
+    border-radius: 0.25rem;
+    text-align: left;
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0 0 0 2px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+
+select {
+    width: 600px;
+    height: 28px;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    align-items: flex-start;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    width: 1.5rem;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+#name-label, #email-label, #number-label, #role-label #favourite-feature-label #favourite-feature {
+    display: block;
+}
+
+#comments {
+    min-height: 120px;
+    width: 578px;;
+    padding: 0.625rem;
+    
+}
+
+button {
+    display: block;
+    width: 600px;
+    height: 40px;
+    
+    background-color: #37AF65;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+}
